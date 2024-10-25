@@ -1,0 +1,58 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-118617-10281-pnw75z.dkcun89f6r/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-118617-10281-pnw75z.dkcun89f6r/package.tgz",
+        "spec": "/tmp/d-118617-10281-pnw75z.dkcun89f6r/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-118617-10281-jykidb.vifu8r529"
+    ]
+  ],
+  "_from": "../d-118617-10281-pnw75z.dkcun89f6r/package.tgz",
+  "_id": "language-cypher@0.5.0",
+  "_inCache": true,
+  "_location": "/language-cypher",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-118617-10281-pnw75z.dkcun89f6r/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-118617-10281-pnw75z.dkcun89f6r/package.tgz",
+    "spec": "/tmp/d-118617-10281-pnw75z.dkcun89f6r/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118617-10281-pnw75z.dkcun89f6r/package.tgz",
+  "_shasum": "2a76f333996bf336758f07044158600bac63a9ca",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-118617-10281-pnw75z.dkcun89f6r/package.tgz",
+  "_where": "/tmp/apm-install-dir-118617-10281-jykidb.vifu8r529",
+  "bugs": {
+    "url": "https://github.com/tobiashm/language-cypher/issues"
+  },
+  "dependencies": {},
+  "description": "Cypher language support in Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/tobiashm/language-cypher#readme",
+  "license": "MIT",
+  "name": "language-cypher",
+  "optionalDependencies": {},
+  "readme": "# Cypher language support in Atom\n\nAdds syntax highlighting to Cypher files in Atom.\n\nOriginally converted from the [Sublime Text 2 Cypher package][1]\n\n[1]: https://github.com/kollhof/sublime-cypher\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobiashm/language-cypher.git"
+  },
+  "version": "0.5.0"
+}

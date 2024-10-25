@@ -1,0 +1,46 @@
+{
+  "_from": "https://www.atom.io/api/packages/language-csv/versions/1.1.2/tarball",
+  "_id": "language-csv@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-zci12mFMVFcsDPaL6DDHKrpnMJiMDi1M6/MM5ikmWX5q6ZXZivJtJJ9ZXQhwOW52Uw2QeFk7wQ5HJUq9Z9m6CQ==",
+  "_location": "/language-csv",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/language-csv/versions/1.1.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-csv/versions/1.1.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-csv/versions/1.1.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-csv/versions/1.1.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/language-csv/versions/1.1.2/tarball",
+  "_shasum": "e0b896b2febde6e0d83098924b5076f9104a37f4",
+  "_spec": "https://www.atom.io/api/packages/language-csv/versions/1.1.2/tarball",
+  "_where": "/tmp/apm-install-dir-1191015-6290-uzmemo.s9j8",
+  "bugs": {
+    "url": "https://github.com/ldez/atom-language-csv/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Syntax highlighting for CSV files.",
+  "devDependencies": {
+    "coffeelint": "^1.15.0"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/ldez/atom-language-csv#readme",
+  "keywords": [
+    "csv"
+  ],
+  "license": "MIT",
+  "name": "language-csv",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldez/atom-language-csv.git"
+  },
+  "version": "1.1.2"
+}

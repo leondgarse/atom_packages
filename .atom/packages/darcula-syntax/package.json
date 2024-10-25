@@ -1,0 +1,46 @@
+{
+  "_from": "https://www.atom.io/api/packages/darcula-syntax/versions/0.2.1/tarball",
+  "_id": "darcula-syntax@0.2.1",
+  "_inBundle": false,
+  "_integrity": "sha512-wwJ0EGAdAeiGzJ2JXxlgEwgDaP+nYrG//GMIopa+Fp/FNs/bUOjwyQdJUrfzgzlLf0cRNSF7RjsA8Z3eOqP/gA==",
+  "_location": "/darcula-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/darcula-syntax/versions/0.2.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/darcula-syntax/versions/0.2.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/darcula-syntax/versions/0.2.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/darcula-syntax/versions/0.2.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/darcula-syntax/versions/0.2.1/tarball",
+  "_shasum": "5bfe19fbc243c5a322c00b69f7a82213777cd04e",
+  "_spec": "https://www.atom.io/api/packages/darcula-syntax/versions/0.2.1/tarball",
+  "_where": "/tmp/apm-install-dir-202126-1068386-1wurjb2.ilpf",
+  "bugs": {
+    "url": "https://github.com/VitaliyR/darcula-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "An Atom syntax highlighting scheme based on IntelliJ Darcula",
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/VitaliyR/darcula-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "darcula"
+  ],
+  "license": "MIT",
+  "name": "darcula-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitaliyR/darcula-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.2.1"
+}

@@ -1,0 +1,129 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-ide-golang/versions/0.1.6/tarball",
+  "_id": "atom-ide-golang@0.1.6",
+  "_inBundle": false,
+  "_integrity": "sha512-ADmGiciVMvZ3EjJoayt+LrhzsNbB03cXNA2E4x1DIfjGAMt2E7Gsu8JzFR6tSS/LSYeSj8U4rQLGX4yipDpxXQ==",
+  "_location": "/atom-ide-golang",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-ide-golang/versions/0.1.6/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-ide-golang/versions/0.1.6/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-ide-golang/versions/0.1.6/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-ide-golang/versions/0.1.6/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-ide-golang/versions/0.1.6/tarball",
+  "_shasum": "f6d3ec6dc4128a2035a8702368f39ebf8b4223db",
+  "_spec": "https://www.atom.io/api/packages/atom-ide-golang/versions/0.1.6/tarball",
+  "_where": "/tmp/apm-install-dir-202132-533078-1s6hf0w.5kxz",
+  "atomTranspilers": [
+    {
+      "transpiler": "atom-ts-transpiler",
+      "glob": "{!(node_modules)/**/,}*.ts?(x)",
+      "options": {
+        "compilerOptions": {
+          "target": "es6",
+          "module": "commonjs",
+          "resolveJsonModule": true
+        },
+        "cacheKeyFiles": [],
+        "verbose": false
+      }
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Atrociously/atom-ide-golang/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "atom-ide-busy-signal": {
+      "versions": {
+        "0.1.0": "consumeBusySignal"
+      }
+    },
+    "linter-indie": {
+      "versions": {
+        "2.0.0": "consumeLinterV2"
+      }
+    },
+    "datatip": {
+      "versions": {
+        "0.1.0": "consumeDatatip"
+      }
+    },
+    "signature-help": {
+      "versions": {
+        "0.1.0": "consumeSignatureHelp"
+      }
+    }
+  },
+  "dependencies": {
+    "@types/atom": "^1.28.0",
+    "atom-languageclient": "^0.9.9",
+    "atom-ts-transpiler": "^1.5.2",
+    "typescript": "^3.2.2"
+  },
+  "deprecated": false,
+  "description": "Go Language support in Atom using atom-ide-base and gopls",
+  "engines": {
+    "atom": ">=0.21.0"
+  },
+  "enhancedScopes": [
+    "source.go",
+    "go"
+  ],
+  "homepage": "https://github.com/Atrociously/atom-ide-golang#readme",
+  "keywords": [
+    "ide",
+    "golang",
+    "autocomplete",
+    "gopls"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "atom-ide-golang",
+  "package-deps": [
+    "atom-ide-ui"
+  ],
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provideAutocomplete"
+      }
+    },
+    "code-format.onSave": {
+      "versions": {
+        "0.1.0": "provideOnSaveCodeFormat"
+      }
+    },
+    "code-highlight": {
+      "versions": {
+        "0.1.0": "provideCodeHighlight"
+      }
+    },
+    "definitions": {
+      "versions": {
+        "0.1.0": "provideDefinitions"
+      }
+    },
+    "find-references": {
+      "versions": {
+        "0.1.0": "provideFindReferences"
+      }
+    },
+    "outline-view": {
+      "versions": {
+        "0.1.0": "provideOutlines"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atrociously/atom-ide-golang.git"
+  },
+  "version": "0.1.6"
+}

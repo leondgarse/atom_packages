@@ -1,0 +1,72 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "96e1e20b-3071-4dda-9ba5-3138bfef87ce"
+  "atom-ide-ui":
+    "atom-ide-code-format":
+      formatOnSave: true
+  "atom-material-ui":
+    colors: {}
+  "autocomplete-python":
+    useKite: false
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "markdown-preview"
+      "markdown-scroll-sync"
+      "kite"
+      "remote-ftp"
+      "timecop"
+      "atom-ide-golang"
+      "go-plus"
+      "linter"
+      "linter-ui-default"
+      "git-diff"
+      "github"
+      "language-git"
+      "open-on-github"
+      "python-tools"
+    ]
+    editor:
+      multiCursorOnClick: true
+    packagesWithKeymapsDisabled: [
+      "remote-ftp"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+    useTreeSitterParsers: false
+  editor: {}
+  "exception-reporting":
+    userId: "bf2af81c-70b4-452e-ad27-d707d3492b4c"
+  fonts:
+    fontFamily: "JetBrains Mono"
+  "isotope-ui":
+    matchEditorFont: true
+    minimalMode: true
+  kite:
+    showWelcomeNotificationOnStartup: false
+  "linter-ui-default":
+    panelHeight: 332
+  "markdown-table-editor": {}
+  welcome:
+    showOnStartup: false
+editor:
+  fontSize: 12
+  scrollPastEnd: true
+"exception-reporting":
+  userId: "73e76c74-5f41-4b0e-9082-d513538f2bcc"
+kite:
+  showWelcomeNotificationOnStartup: false
+"linter-ui-default":
+  panelHeight: 105
+  showPanel: true
+"markdown-preview-plus":
+  mathConfig:
+    enableLatexRenderingByDefault: true
+"tree-view":
+  hideVcsIgnoredFiles: true
+welcome:
+  showOnStartup: false
